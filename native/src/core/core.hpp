@@ -14,6 +14,7 @@ std::string read_certificate(int fd, int version = -1);
 
 // Module stuffs
 void handle_modules();
+void prepare_modules();
 void magic_mount();
 void disable_modules();
 void remove_modules();
